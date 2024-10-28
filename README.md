@@ -17,9 +17,9 @@ Using VGG19 ( a pretrained model )
 Run the `main.py` script with specified paths for the content and style images. Additional optional arguments allow customization of the training and generation process.
 
 ```bash
-python style_transfer.py --content_image "images/building.jpg" --style_image "images/van_gogh.jpg" --output_dir "output_images" --total_steps 3000 --alpha 1 --beta 0.02
+python main.py --content_image "images/building.jpg" --style_image "images/van_gogh.jpg" --output_dir "output_images" --total_steps 3000 --alpha 1 --beta 0.02
 ```
 
 ## Example :
 
-<img src="https://github.com/tarekakrout2021/NeuralStyleTransfer/blob/main/example.png" width=50% height=50%>
+<img src="https://github.com/tarekakrout2021/NeuralStyleTransfer/blob/main/example.png" width=80% height=80%>
